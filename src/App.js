@@ -2,6 +2,12 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+/**
+ * <App />
+ * This component is rendered by the top level <Route />
+ * component to be used as a container for other rendered
+ * components
+*/
 class App extends Component {
   render() {
     return (
