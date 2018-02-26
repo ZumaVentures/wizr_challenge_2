@@ -1,0 +1,5 @@
+{
+  "/api/*": "/$1",
+  "/users/:userId/photos": "/photos?userId=:userId",
+  "/photos/liked": "/photos?liked_by_user=true"
+}

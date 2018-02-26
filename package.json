@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "json-server": "^0.12.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-redux": "^5.0.7",
@@ -10,8 +11,10 @@
     "react-scripts": "1.1.1",
     "redux": "^3.7.2"
   },
+  "proxy": "http://0.0.0.0:3001",
   "scripts": {
-    "start": "react-scripts start",
+    "start:api": "json-server --watch ./api/db.json --routes ./api/routes.json --port 3001",
+    "start": "npm run start:api & react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
