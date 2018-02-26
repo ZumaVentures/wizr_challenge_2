@@ -87,7 +87,7 @@ You will be evaluated on the quality of the code you submit. Key factors to keep
 
 ## Final Notes
 
-As mentioned previously ,don't worry if you are unable to finish up every detail. We realize that time is limited and very much appreciate you taking the time to work on this for us. Focus on the things you do well and don't stress over other minor details.
+As mentioned previously, don't worry if you are unable to finish up every detail. We realize that time is limited and very much appreciate you taking the time to work on this for us. Focus on the things you do well and don't stress over other minor details.
 
 This repo also includes a [NOTES.md](NOTES.md) file. Please feel free to leave any notes there for us. Tell us about your thought process, any known issues in your code, or any feedback that you have for us.
 
